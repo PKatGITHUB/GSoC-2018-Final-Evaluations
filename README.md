@@ -20,7 +20,7 @@
 * **Open Web Application supporting SMART**
 
 #### Project Overview 
-The main objective of this project was to enhance the OpenMRS OAuth2 Module by extending the support for SMART's EHR launch flow. Also making sure that the module works fine with the OpenMRS reference  application. Adding support for various scopes and launch context was another major task. Finally as a cherry on top, an OWA was made in order to make the EHR launch sequence more user friendly and for the easy registration of SMART clients. 
+The main objective of this project was to enhance the OpenMRS OAuth2 Module by extending the support for SMART's EHR launch flow. Also making sure that the module works fine with the OpenMRS reference  application. Adding support for various scopes and launch context was another major task. Finally as a cherry on top, an OWA was made in order to make the EHR launch sequence more user friendly and for easy registration of SMART clients using manifest file. 
 
 ##### Registration of SMART clients/application RESTfully
 + In order to be able to run SMART apps from the EHR, i.e. OpenMRS, user is first needed to register the respective SMART application/client. A SMART client is no different than a normal OAuth client except that it must have a Launch Url which is the SMART app launch url to which the browser would redirect when the user attempts to run SMART apps. This objective involved adding the required new tables for the SMART application, also adding the respective DAOs and Services. The functionality to register and modify a SMART application  was added by modifying the existing REST controllers to manage OAuth Clients.
@@ -29,7 +29,7 @@ The main objective of this project was to enhance the OpenMRS OAuth2 Module by e
 + The EHR launch flow of SMART apps is properly integrated within the module. Now a user may see the list of registered SMART application and is able to run them from within OpenMRS. Whenever the user hits "Run", a random launch value is generated and saved in the database, and passed to the SMART application. The application, at the time of requesting authorization, sends back the launch value which is verified to ensure that the SMART app ran in same session. This objective also involved changing the metadata controller so as it gives the metadata response in proper conformance statement format as the SMART apps require.
 
 ##### Functionality of Scopes and Launch Context
-+ The support for patient and user specific scopes was added. Also say, if some application is launched requests patient specific scopes, then the token response must involve the patient id of current patient in context. This was done by adding a custom token enhancer which modifies the token response and adds the relevent launch context requested by the SMART application. Right now Patient and User specific scopes are supported but this functionality could be extended further to other resources.
++ The support for patient and user specific scopes was added. Also say, if some application is launched requests patient specific scopes, then the token response must involve the patient id of current patient in context. This was done by adding a custom token enhancer which modifies the token response and adds the relevent launch context requested by the SMART application. Right now Patient and User specific scopes are supported but this functionality could be extended further to other FHIR resources.
 
 ##### Open Web Application supporting SMART
 + After successfully integrating the EHR launch flow and adding the support of OAuth2 Module with the OpenMRS reference application, now it was needed to make an OWA for extending the support of SMART functionality towards the OpenMRS reference application by displaying the OWA on the user dashboard. SMART OWA also supports registration of SMART applications using manifest file upload. This OWA is generated with the help of OpenMRS OWA generator and developed using HTML, CSS and jQuery.
@@ -55,8 +55,8 @@ This was really an awesome project to work upon. This project included changes f
 
 #### Resources and Demo Presentations
 
-##### [Project community Talk thread here.](https://talk.openmrs.org/t/gsoc-2018-oauth-module-enhancements-and-smart-apps-support-project/18012)
-##### [Present OAuth2 Module documentation here.](https://wiki.openmrs.org/display/projects/OpenMRS+-+OAuth2+Module)
+##### [Community Project Talk thread here.](https://talk.openmrs.org/t/gsoc-2018-oauth-module-enhancements-and-smart-apps-support-project/18012)
+##### [OAuth2 Module documentation here.](https://wiki.openmrs.org/display/projects/OpenMRS+-+OAuth2+Module)
 ##### [Weekly Blog Posts here.](https://prabodhgsoc2018.wordpress.com/)
 
 ##### My mid-term presentation video 
@@ -64,8 +64,7 @@ This was really an awesome project to work upon. This project included changes f
 alt="GSoC-2018 Mid Term Presentation" width="240" height="180" border="10" /></a>
 
 ##### Demo of SMART OWA 
-<a href="http://www.youtube.com/watch?feature=player_embedded&v=YOUTUBE_VIDEO_ID_HERE
-" target="_blank"><img src="http://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg" 
+<a href="https://www.youtube.com/watch?v=v8zonYOZMjM" target="_blank"><img src="http://img.youtube.com/vi/v8zonYOZMjM/0.jpg" 
 alt="Demo of SMART OWA" width="240" height="180" border="10" /></a>
 #### Thoughts on GSoC
->>This past summer was the most awesome experience for me. Google Summer of Code with OpenMRS was the most challenging and fun filled coding experience I have ever had. OpenMRS community has been a beautiful community. Everyone here always have a "ready to help!" attitude which makes working very comfortable here. My mentors did helped me alot whenever I was stuck. Everday through the summer I had somthing new, something challenging to do which would push me to do my best and to explore and learn new things. GSoC gave me the exposure to work with such big code base and dynamic tech stack which was really a great experience. Overall, GSoC with OpenMRS made me more confident and helped me in developing technical, communicational and managerial skills. Kudos to whole OpenMRS community and GSoC!
+>This past summer was the most awesome experience for me. Google Summer of Code with OpenMRS was the most challenging and fun filled coding experience I have ever had. OpenMRS community has been a beautiful community. Everyone here always have a "ready to help!" attitude which makes working very comfortable here. My mentors did helped me alot whenever I was stuck. Everday through the summer I had somthing new, something challenging to do which would push me to do my best and to explore and learn new things. GSoC gave me the exposure to work with such big code base and dynamic tech stack which was really a great experience. Overall, GSoC with OpenMRS made me more confident and helped me in developing technical, communicational and managerial skills. Kudos to whole OpenMRS community and GSoC!
