@@ -5,6 +5,12 @@
 ##### **Student         :** Prabodh Kotasthane
 ##### **Project wiki    :** []()
 
+##### Source Code and Downloads :
++ *Source Code for OpenMRS OAuth2 Module :* [https://github.com/openmrs/openmrs-module-oauth2/tree/gsoc-18](https://github.com/openmrs/openmrs-module-oauth2/tree/gsoc-18)
++ *Source Code for SMART OWA :* [https://github.com/PKatGITHUB/openmrs-owa-smartowa](https://github.com/PKatGITHUB/openmrs-owa-smartowa)
++ *Download OpenMRS OAuth2 Module 2.0 .omod file :* [https://github.com/PKatGITHUB/GSoC-2018-Final-Evaluations/blob/master/oauth2-2.0.omod](https://github.com/PKatGITHUB/GSoC-2018-Final-Evaluations/blob/master/oauth2-2.0.omod)
++ *Download SMART OWA .zip bundle :* [https://github.com/PKatGITHUB/GSoC-2018-Final-Evaluations/blob/master/smartowa.zip](https://github.com/PKatGITHUB/GSoC-2018-Final-Evaluations/blob/master/smartowa.zip)
+
 #### Major Objectives : 
 * **Registration of SMART clients/application RESTfully**
 * **Integration of SMART's EHR Launch Flow**
@@ -21,11 +27,10 @@ In order to be able to run SMART apps from the EHR, i.e. OpenMRS, user is first 
 The EHR launch flow of SMART apps is properly integrated within the module. Now a user may see the list of registered SMART application and is able to run them from within OpenMRS. Whenever the user hits "Run", a random launch value is generated and saved in the database, and passed to the SMART application. The application, at the time of requesting authorization, sends back the launch value which is verified to ensure that the SMART app ran in same session. This objective also involved changing the metadata controller so as it gives the metadata response in proper conformance statement format as the SMART apps require.
 
 ##### Functionality of Scopes and Launch Context
-##### Source Code and Downloads :
-+ *Source Code for OpenMRS OAuth2 Module :* [https://github.com/openmrs/openmrs-module-oauth2/tree/gsoc-18](https://github.com/openmrs/openmrs-module-oauth2/tree/gsoc-18)
-+ *Source Code for SMART OWA :* [https://github.com/PKatGITHUB/openmrs-owa-smartowa](https://github.com/PKatGITHUB/openmrs-owa-smartowa)
-+ *Download OpenMRS OAuth2 Module 2.0 .omod file :* [https://github.com/PKatGITHUB/GSoC-2018-Final-Evaluations/blob/master/oauth2-2.0.omod](https://github.com/PKatGITHUB/GSoC-2018-Final-Evaluations/blob/master/oauth2-2.0.omod)
-+ *Download SMART OWA .zip bundle :* [https://github.com/PKatGITHUB/GSoC-2018-Final-Evaluations/blob/master/smartowa.zip](https://github.com/PKatGITHUB/GSoC-2018-Final-Evaluations/blob/master/smartowa.zip)
+The support for patient and user specific scopes was added. Also say, if some application is launched requests patient specific scopes, then the token response must involve the patient id of current patient in context. This was done by adding a custom token enhancer which modifies the token response and adds the relevent launch context requested by the SMART application. Right now Patient and User specific scopes are supported but this functionality could be extended further to other resources.
+
+##### Open Web Application supporting SMART
+After successfully integrating the EHR launch flow and adding the support of OAuth2 Module with the OpenMRS reference application, now it was needed to make an OWA for extending the support of SMART functionality towards the OpenMRS reference application by displaying the OWA on the user dashboard. SMART OWA also supports registration of SMART applications using manifest file upload. This OWA is generated with the help of OpenMRS OWA generator and developed using HTML, CSS and jQuery.
 
 ##### JIRA Issues I have worked on and respective Pull Requests :
 + **[OA-8](https://issues.openmrs.org/browse/OA-8)** : [https://github.com/openmrs/openmrs-module-oauth2/pull/6](https://github.com/openmrs/openmrs-module-oauth2/pull/6)
