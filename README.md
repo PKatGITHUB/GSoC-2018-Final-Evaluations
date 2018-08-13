@@ -53,5 +53,19 @@ This was really an awesome project to work upon. This project included changes f
 + **[OA-17](https://issues.openmrs.org/browse/OA-17)** : [https://github.com/openmrs/openmrs-module-oauth2/pull/16](https://github.com/openmrs/openmrs-module-oauth2/pull/16)
 + **[OA-18](https://issues.openmrs.org/browse/OA-18)** : [https://github.com/openmrs/openmrs-module-oauth2/pull/17](https://github.com/openmrs/openmrs-module-oauth2/pull/17)
 
+#### Resources and Demo Presentations
 
+##### Complete project documentation : 
+##### Project community Talk thread :
+##### Present OAuth2 Module documentation :
 
+##### My mid-term presentation video 
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=YOUTUBE_VIDEO_ID_HERE
+" target="_blank"><img src="http://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg" 
+alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
+
+##### Demo of SMART OWA 
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=YOUTUBE_VIDEO_ID_HERE
+" target="_blank"><img src="http://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg" 
+alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
+#### Thoughts on GSoC
