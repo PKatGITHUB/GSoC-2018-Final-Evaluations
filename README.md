@@ -55,16 +55,16 @@ This was really an awesome project to work upon. This project included changes f
 
 #### Resources and Demo Presentations
 
-##### Complete project documentation : 
-##### Project community Talk thread :
-##### Present OAuth2 Module documentation :
+###### Complete project documentation :
+[https://wiki.openmrs.org/display/projects/OAuth+module+enhancements+and+SMART+apps+support](https://wiki.openmrs.org/display/projects/OAuth+module+enhancements+and+SMART+apps+support)
+###### Project community Talk thread :
+###### Present OAuth2 Module documentation :
 
-##### My mid-term presentation video 
-<a href="http://www.youtube.com/watch?feature=player_embedded&v=YOUTUBE_VIDEO_ID_HERE
-" target="_blank"><img src="http://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg" 
-alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
+###### My mid-term presentation video 
+<a href="https://www.youtube.com/watch?v=DqZ5ufwvCZs" target="_blank"><img src="http://img.youtube.com/vi/DqZ5ufwvCZs/0.jpg" 
+alt="GSoC-2018 Mid Term Presentation" width="240" height="180" border="10" /></a>
 
-##### Demo of SMART OWA 
+###### Demo of SMART OWA 
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=YOUTUBE_VIDEO_ID_HERE
 " target="_blank"><img src="http://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg" 
 alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
