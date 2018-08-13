@@ -55,9 +55,10 @@ This was really an awesome project to work upon. This project included changes f
 
 #### Resources and Demo Presentations
 
-##### [Complete project documentation](https://wiki.openmrs.org/display/projects/OAuth+module+enhancements+and+SMART+apps+support)
-##### [Project community Talk thread](https://talk.openmrs.org/t/gsoc-2018-oauth-module-enhancements-and-smart-apps-support-project/18012)
-##### [Present OAuth2 Module documentation](https://wiki.openmrs.org/display/projects/OpenMRS+-+OAuth2+Module)
+##### [Complete project documentation here.](https://wiki.openmrs.org/display/projects/OAuth+module+enhancements+and+SMART+apps+support)
+##### [Project community Talk thread here.](https://talk.openmrs.org/t/gsoc-2018-oauth-module-enhancements-and-smart-apps-support-project/18012)
+##### [Present OAuth2 Module documentation here.](https://wiki.openmrs.org/display/projects/OpenMRS+-+OAuth2+Module)
+##### [Weekly Blog Posts here.](https://prabodhgsoc2018.wordpress.com/)
 
 ##### My mid-term presentation video 
 <a href="https://www.youtube.com/watch?v=DqZ5ufwvCZs" target="_blank"><img src="http://img.youtube.com/vi/DqZ5ufwvCZs/0.jpg" 
