@@ -3,7 +3,7 @@
 ##### **Primary Mentor  :** Sanatt Abrol
 ##### **Backup Mentor   :** Harsha Kumara
 ##### **Student         :** Prabodh Kotasthane
-##### **Project wiki    :** []()
+##### [**Project wiki here.**](https://wiki.openmrs.org/display/projects/OAuth+module+enhancements+and+SMART+apps+support)
 
 ##### Source Code and Downloads 
 + *Source Code for OpenMRS OAuth2 Module :* [https://github.com/openmrs/openmrs-module-oauth2/tree/gsoc-18](https://github.com/openmrs/openmrs-module-oauth2/tree/gsoc-18)
@@ -55,7 +55,6 @@ This was really an awesome project to work upon. This project included changes f
 
 #### Resources and Demo Presentations
 
-##### [Complete project documentation here.](https://wiki.openmrs.org/display/projects/OAuth+module+enhancements+and+SMART+apps+support)
 ##### [Project community Talk thread here.](https://talk.openmrs.org/t/gsoc-2018-oauth-module-enhancements-and-smart-apps-support-project/18012)
 ##### [Present OAuth2 Module documentation here.](https://wiki.openmrs.org/display/projects/OpenMRS+-+OAuth2+Module)
 ##### [Weekly Blog Posts here.](https://prabodhgsoc2018.wordpress.com/)
@@ -69,4 +68,4 @@ alt="GSoC-2018 Mid Term Presentation" width="240" height="180" border="10" /></a
 " target="_blank"><img src="http://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg" 
 alt="Demo of SMART OWA" width="240" height="180" border="10" /></a>
 #### Thoughts on GSoC
->>This past summer was the most awesome experience for me. Google Summer of Code with OpenMRS was the most challenging and fun filled coding experience I have ever had. OpenMRS community has been a beautiful community. Everyone here always have a "ready to help!" attitude which makes working very comfortable here. My mentors did helped me alot whenever I was stuck. Everday through the summer I had somthing new, something challenging to do which would push me to do my best and to explore and learn new things. GSoC gave me the exposure to work with such big code base and dynamic tech stack which was really a great experience. Overall, GSoC with OpenMRS made me more confident and helped me in developing technical, communicational and managerial skills. Kudos to whole OpenMRS community and GSoC!  :D 
+>>This past summer was the most awesome experience for me. Google Summer of Code with OpenMRS was the most challenging and fun filled coding experience I have ever had. OpenMRS community has been a beautiful community. Everyone here always have a "ready to help!" attitude which makes working very comfortable here. My mentors did helped me alot whenever I was stuck. Everday through the summer I had somthing new, something challenging to do which would push me to do my best and to explore and learn new things. GSoC gave me the exposure to work with such big code base and dynamic tech stack which was really a great experience. Overall, GSoC with OpenMRS made me more confident and helped me in developing technical, communicational and managerial skills. Kudos to whole OpenMRS community and GSoC!
