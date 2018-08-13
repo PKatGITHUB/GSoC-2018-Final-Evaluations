@@ -16,7 +16,7 @@
 * **Integration of SMART's EHR Launch Flow**
 * **Functionality of Scopes and Launch Context**
 
-#### Extra Crefit 
+#### Extra Credit 
 * **Open Web Application supporting SMART**
 
 #### Project Overview 
